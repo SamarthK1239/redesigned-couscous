@@ -4,7 +4,7 @@ import monkeylearn as monkeylearn
 from dotenv import load_dotenv
 import os
 
-dotenv_path = Path('Environment Variables/variables.env')
+dotenv_path = Path('Environment Variables/.env')
 load_dotenv(dotenv_path=dotenv_path)
 
 ml = monkeylearn.MonkeyLearn(os.getenv('api-key'))

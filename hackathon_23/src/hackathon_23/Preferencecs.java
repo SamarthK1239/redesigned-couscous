@@ -133,7 +133,7 @@ public class Preferencecs extends JFrame {
             panel1.setOpaque(false);
             panel1.setVisible(true);
             JPanel panel2 = new JPanel();
-            panel2.add(new JLabel(new ImageIcon(ImageIO.read(new File("C:\\Users\\91740\\OneDrive\\Documents\\CMPSC221\\bigbook.png")))));
+            //panel2.add(new JLabel(new ImageIcon(ImageIO.read(new File("C:\\Users\\91740\\OneDrive\\Documents\\CMPSC221\\bigbook.png")))));
             panel2.setBounds(-500, 0, 2000, 900);
             panel2.setVisible(true);
             panel2.setOpaque(true);

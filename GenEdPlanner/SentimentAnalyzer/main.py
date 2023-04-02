@@ -16,6 +16,7 @@ def getSentimentLevel(text):
     data = [text]
     return ml.classifiers.classify(model_id, data)
 
+
 if __name__ == "__main__":
     comments_list = scrape_reddit.get_comments_list()
     weights_list = []
@@ -41,6 +42,9 @@ if __name__ == "__main__":
             weights_list.pop()
 
     mean = sum(weights_list) / len(weights_list)
-    if mean > 0: print("Overall Positive, Score of: " + str(mean))
-    elif mean < 0: print("Overall Negative, Score of: " + str(mean))
-    else: print("Neutral Opinion, defer to your own judgement")
+    if mean > 0:
+        print("Overall Positive, Score of: " + str(mean))
+    elif mean < 0:
+        print("Overall Negative, Score of: " + str(mean))
+    else:
+        print("Neutral Opinion, defer to your own judgement")

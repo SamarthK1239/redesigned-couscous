@@ -8,7 +8,7 @@ import scrape_reddit
 dotenv_path = Path('Environment Variables/.env')
 load_dotenv(dotenv_path=dotenv_path)
 
-ml = monkeylearn.MonkeyLearn(os.getenv('api-key'))
+ml = monkeylearn.MonkeyLearn(os.getenv('c5cd734d5ac0f9e2d41c61e9f40a432aebcefe0b'))
 model_id = 'cl_pi3C7JiL'
 
 

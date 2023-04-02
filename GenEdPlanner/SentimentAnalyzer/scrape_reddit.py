@@ -9,8 +9,8 @@ from google_reddit_course import *
 dotenv_path = Path('Environment Variables/.env')
 load_dotenv(dotenv_path=dotenv_path)
 
-reddit = praw.Reddit(client_id=os.getenv('client_id'), client_secret=os.getenv('client_secret'),
-                     user_agent=os.getenv('user_agent'))
+reddit = praw.Reddit(client_id=os.getenv('FHQQzTYqQxmq_t7P6xx22w'), client_secret=os.getenv('6_UZNjC31utMUEh2xUdKV7V2YNBudA'),
+                     user_agent=os.getenv('hackPSU_spring_2023'))
 
 
 def get_comments_list(query):

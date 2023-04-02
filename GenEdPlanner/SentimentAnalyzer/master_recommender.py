@@ -7,11 +7,11 @@ dotenv_path = Path('Environment Variables/.env')
 load_dotenv(dotenv_path=dotenv_path)
 
 conn = psycopg2.connect(
-    host=os.getenv('host'),
-    user=os.getenv('user'),
-    password=os.getenv('password'),
-    database=os.getenv('database'),
-    port=os.getenv('port')
+    host=os.getenv('ec2-54-208-11-146.compute-1.amazonaws.com'),
+    user=os.getenv('tgxctmcewoorja'),
+    password=os.getenv('e4f9aa0cf321fbd283c50f3d4da4e7a801db06d0f39c668b0c252bad947c1211'),
+    database=os.getenv('df8cah15kt4kr9'),
+    port=os.getenv('5432')
 )
 cur = conn.cursor()
 user_input = input("Enter your interests: ")

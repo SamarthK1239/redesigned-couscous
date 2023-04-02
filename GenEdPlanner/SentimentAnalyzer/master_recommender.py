@@ -16,15 +16,17 @@ conn = psycopg2.connect(
 cur = conn.cursor()
 
 ranked_courses = database_to_dict.coursesPerArea()
-
+final_schedule=[]
 for i in ranked_courses:
     for j in i:
-        current_course = cur.execute("SELECT * FROM subject WHERE Code=%s", j[1])
-        for ran in range(3, 9):
-            if current_course[i] == 1:
-                gened_requirements[gened_codes[i]] -= current_course[2]
-                if gened_requirements[gened_codes[i]] <= 0:
-                    break
+        cur.execute("SELECT * FROM subjects WHERE Code=%s", j[1])
+        current_course=cur.fetchall()
+        for ran in range(3, 10):
+            if current_course[0][i] == 1:
+                if gened_requirements[gened_codes[i]] > 0:
+                    gened_requirements[gened_codes[i]] -= current_course[0][2]
+                    final_schedule+=[j[1]]
+                    
 
 
 

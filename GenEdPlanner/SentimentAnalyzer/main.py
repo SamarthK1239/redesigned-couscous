@@ -1,14 +1,7 @@
-from pathlib import Path
-
 import monkeylearn as monkeylearn
-from dotenv import load_dotenv
-import os
 import scrape_reddit
 
-dotenv_path = Path('Environment Variables/.env')
-load_dotenv(dotenv_path=dotenv_path)
-
-ml = monkeylearn.MonkeyLearn(os.getenv('c5cd734d5ac0f9e2d41c61e9f40a432aebcefe0b'))
+ml = monkeylearn.MonkeyLearn('c5cd734d5ac0f9e2d41c61e9f40a432aebcefe0b')
 model_id = 'cl_pi3C7JiL'
 
 
@@ -35,7 +28,7 @@ def scaledRecommendation(query):
                 multiplicative_factor = -1
 
             scaled_confidence = multiplicative_factor * scaled_confidence
-            #print(print_statement, scaled_confidence)
+            # print(print_statement, scaled_confidence)
 
             weights_list.append(scaled_confidence)
 

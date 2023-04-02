@@ -6,7 +6,7 @@ def search_bar(query):
 
 def results(query):
     lst=[]
-    for j in search(query, tld="co.in", num=3, stop=3, pause=1):
+    for j in search(query, tld="co.in", num=3, stop=3, pause=1.5):
         lst+=[j]
     return lst
 

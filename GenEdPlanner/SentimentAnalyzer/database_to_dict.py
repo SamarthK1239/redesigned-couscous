@@ -33,19 +33,17 @@ def databaseToLst(types):
     return lst
 
 
-def coursesPerArea():
+def coursesPerArea(user_input):
     final_list = []
-    for i in ['GA', 'GH', 'GS', 'GHW', 'GN']:
+    for i in ['GA', 'GHW', 'GH', 'GN', 'GS', 'GQ', 'GWS']:
         lst = databaseToLst(i)
-        output = recommender(lst)
+        output = recommender(lst, user_input)
 
         mean_list = []
         for out in output:
             reco = main.scaledRecommendation(out)
             if reco is not None:
                 mean_list.append([main.scaledRecommendation(out), out])
-            else:
-                print("Bro you did it again wtf")
         mean_list.sort(reverse=True)
         final_list.append(mean_list)
     return final_list

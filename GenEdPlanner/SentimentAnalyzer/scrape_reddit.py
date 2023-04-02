@@ -30,5 +30,5 @@ def get_comments_list(query):
             submission = reddit.submission(url=i)
             lst_of_comments += [get_comments()]
         except:
-            print('not reddit website')
+            pass
     return lst_of_comments

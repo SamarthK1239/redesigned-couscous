@@ -4,7 +4,7 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
 
-def recommender(lst_type):
+def recommender(lst_type, user_input):
     # Download the required NLTK resources
     nltk.download('punkt')
     nltk.download('stopwords')
@@ -31,7 +31,7 @@ def recommender(lst_type):
     index = similarities.MatrixSimilarity(tfidf[corpus])
 
     # Example user interest text
-    user_interest = "art, humanities, economic, psychology, speaking, philosophy, sex"
+    user_interest = user_input
 
     # Process the user interest text and compute its similarity to the course category descriptions
     user_interest_bow = dictionary.doc2bow(preprocess_text(user_interest))

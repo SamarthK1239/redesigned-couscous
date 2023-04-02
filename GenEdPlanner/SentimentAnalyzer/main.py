@@ -53,4 +53,4 @@ def scaledRecommendation(query):
             '''
             return mean
         except:
-            print("Bruh what the fuck did you just do")
+            pass

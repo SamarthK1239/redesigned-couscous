@@ -14,19 +14,21 @@ conn = psycopg2.connect(
     port=os.getenv('port')
 )
 cur = conn.cursor()
+user_input = input("Enter your interests: ")
 
-ranked_courses = database_to_dict.coursesPerArea()
+ranked_courses = database_to_dict.coursesPerArea(user_input)
+print(ranked_courses)
 final_schedule=[]
 for i in ranked_courses:
     for j in i:
-        cur.execute("SELECT * FROM subjects WHERE Code=%s", j[1])
+        cur.execute("SELECT * FROM subjects WHERE Code='"+j[1]+"';")
         current_course=cur.fetchall()
         for ran in range(3, 10):
-            if current_course[0][i] == 1:
-                if gened_requirements[gened_codes[i]] > 0:
-                    gened_requirements[gened_codes[i]] -= current_course[0][2]
+            if current_course[0][ran] == 1:
+                if gened_requirements[gened_codes[ran]] > 0:
+                    gened_requirements[gened_codes[ran]] -= current_course[0][2]
                     final_schedule+=[j[1]]
-                    
+final_schedule = list(set(final_schedule))
 print(final_schedule)
 
 

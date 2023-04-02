@@ -45,8 +45,8 @@ def insert(filename, types, lst1):
             conn.commit()
 
 
-lst = [["arts_gened.csv", "GA", [1, 0, 0, 0, 0, 0, 0]], ["humanities.csv", "GH", [0, 1, 0, 0, 0, 0, 0]],
-       ["health_wellness.csv", "GHW", [0, 0, 1, 0, 0, 0, 0]], ["nat_sci.csv", "GN", [0, 0, 0, 1, 0, 0, 0]],
+lst = [["arts_gened.csv", "GA", [1, 0, 0, 0, 0, 0, 0]], ["health_wellness.csv", "GHW", [0, 1, 0, 0, 0, 0, 0]],
+       ["humanities.csv", "GH", [0, 0, 1, 0, 0, 0, 0]], ["nat_sci.csv", "GN", [0, 0, 0, 1, 0, 0, 0]],
        ["social_behavior.csv", "GS", [0, 0, 0, 0, 1, 0, 0]], ["quantification.csv", "GQ", [0, 0, 0, 0, 0, 1, 0]],
        ["writing_speaking.csv", "GWS", [0, 0, 0, 0, 0, 0, 1]]]
 

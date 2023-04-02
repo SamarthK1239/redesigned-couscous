@@ -27,7 +27,7 @@ for i in ranked_courses:
                     gened_requirements[gened_codes[i]] -= current_course[0][2]
                     final_schedule+=[j[1]]
                     
-
+print(final_schedule)
 
 
 

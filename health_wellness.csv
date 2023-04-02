@@ -1,3 +1,4 @@
+Code,Course,Credits
 AA 130N,Creative Arts Therapy Applications,3
 ASIA 106N,"Asian Traditions of Health, Medicine, and the Body",3
 BBH 48,Values and Health Behavior,1.5
@@ -32,10 +33,10 @@ HIST 162N,The Pursuit of Happiness in American Life: Historical Literature and M
 HM 208,"Social, Cultural, and Health Influences of Alcohol",1.5
 HM 209,Alcohol & Cuisine: Culture & Responsible Service,1.5
 HPA 57,Consumer Choices in Health Care,3
-KINES 1,Introduction to Outdoor Pursuits,1.5-3
-KINES 1Z,Introduction to Outdoor Pursuits -LINKED,1.5-3
+KINES 1,Introduction to Outdoor Pursuits,3
+KINES 1Z,Introduction to Outdoor Pursuits -LINKED,3
 KINES 4,Principles of Fly Tying and Fly Fishing for Trout,1.5
-KINES 6,Cycle Conditioning,1.5-3
+KINES 6,Cycle Conditioning,3
 KINES 10,Techniques in Rock Climbing,1.5
 KINES 10A,Lead Rock Climbing,1.5
 KINES 11,Snowsports: Downhill Skiing,1.5
@@ -48,16 +49,16 @@ KINES 24,Lifetime Sports,3
 KINES 25,Introduction to Court Sports,1.5
 KINES 26,Archery/Indoor & Outdoor,1.5
 KINES 27,Badminton,1.5
-KINES 29,Golf I,1-1.5
+KINES 29,Golf I,1.5
 KINES 29A,Golf II,1.5
-KINES 29B,Total Golf,1.5-3
+KINES 29B,Total Golf,3
 KINES 29C,Total Golf in Pennsylvania,3
 KINES 41,Handball,1.5
 KINES 42,Ice Skating,1.5
 KINES 44,Racquetball I,1.5
 KINES 45,NAUI Basic SCUBA,1.5
 KINES 45A,PADI Basic SCUBA,1.5
-KINES 46,Squash I,1-1.5
+KINES 46,Squash I,1
 KINES 47A,Beginning Swimming,1.5
 KINES 47B,Intermediate Swimming,1.5
 KINES 48,Tennis I,1.5
@@ -75,15 +76,15 @@ KINES 67,Physical Conditioning,1.5
 KINES 68,Resistance Training,1.5
 KINES 70,Swim Conditioning,1.5
 KINES 72,Walking for Fitness,1.5
-KINES 76,Introduction to Tai Chi Ch'uan,1.5
+KINES 76,Introduction to Tai Chi Chuan,1.5
 KINES 77,Yoga for a Lifetime,1.5
 KINES 77A,Advanced Yoga Practice,1.5
 KINES 81,Wellness Theory,3
 KINES 82,Action Methods for Stress Management,3
 KINES 83,Exercise for Stress Management,1.5
-KINES 84,Fitness for Life,1.5-3
+KINES 84,Fitness for Life,1.5
 KINES 84Z,Fitness for Life - Linked,3
-KINES 88,Varsity Sport Experience,1.5-3
+KINES 88,Varsity Sport Experience,1.5
 KINES 89,Wilderness Experience,3
 KINES 90,Indoor Team Sports,3
 KINES 90A,Introduction to Team Sports/Indoor - Volleyball,1.5
@@ -93,8 +94,8 @@ KINES 91A,Introduction to Outdoor Team Sports-Soccer,1.5
 KINES 91C,Introduction to Outdoor Team Sports-Rugby,1.5
 KINES 91D,Introduction to Outdoor Team Sports - Ultimate,1.5
 KINES 92,Personal Fitness and Wellness,3
-KINES 93,Enhancing Mastery in Physical Activity,1.5-3
-KINES 96,Independent Study in Physical Activity,0.5-3
+KINES 93,Enhancing Mastery in Physical Activity,1.5
+KINES 96,Independent Study in Physical Activity,0.5
 KINES 160N,Fitness with Exercise Physiology,3
 KINES 222N,Science and Politics of the Female Athlete,3
 KINES 303,Emergency Care - First Aid/Safety/AED,3
@@ -112,8 +113,8 @@ PHIL 137N,Introduction to Philosophy through Health and Sport,3
 PLSC 222N,Science and Politics of the Female Athlete,3
 PUBPL 222N,Science and Politics of the Female Athlete,3
 RHS 226,College Student Mental Health and Wellness,3
-RPTM 1,Introduction to Outdoor Pursuits,1.5-3
-RPTM 1Z,Introduction to Outdoor Pursuits -LINKED,1.5-3
+RPTM 1,Introduction to Outdoor Pursuits,1.5
+RPTM 1Z,Introduction to Outdoor Pursuits -LINKED,1.5
 RPTM 140,Outdoor School Field Experience,2
 RPTM 280,Wilderness First Aid,1
 SCIED 140,Outdoor School Field Experience,2

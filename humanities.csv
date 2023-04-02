@@ -1,3 +1,4 @@
+Code,Course,Credits
 AA 193N,The Craft of Comics,3
 AAS 100N,Introduction to Asian American Studies,3
 AFAM S97I,Special Topics - InterDomain,3
@@ -18,9 +19,9 @@ AFAM 146,"The Life and Thought of Martin Luther King, Jr.",3
 AFAM 147,The Life and Thought of Malcolm X,3
 AFAM 152,African American History,3
 AFAM 164,The History of Brazil,3
-AFAM 210,"Freedom's First Generation: African American Life and Work, from the Civil War to World War II",3
+AFAM 210,"Freedom First Generation: African American Life and Work, from the Civil War to World War II",3
 AFAM 211,Slavery and Freedom in the Black Atlantic,3
-AFAM 213Y,African American Women's History,3
+AFAM 213Y,African American Women History,3
 AFAM 226N,Critical Approaches to Hip-Hop,3
 AFAM 250,Introduction to the Caribbean,3
 AFAM 280,Historical Ethnography of Freedom,3
@@ -80,7 +81,7 @@ APLNG 230N,Language and Social Justice,3
 APLNG 260,LANGUAGE AND TECHNOLOGY,3
 APLNG 280N,Conducting International Comparative Research,3
 ARAB 110,"Arab Language, Cultures, and Current Topics",3
-ARAB 164,Introduction to the Qur'an,3
+ARAB 164,Introduction to the Quan,3
 ARAB 165,"Islamic States, Societies and Cultures c. 600-1500",3
 ARTH 115N,Arts of Love,3
 ARTH 202N,Renaissance to Modern Architecture,3
@@ -193,7 +194,7 @@ CAS 373,The Rhetorics of War and Peace,3
 CAS 375,Rhetoric and Public Controversy,3
 CAS 383N,Culture and Technology,3
 CAS 478,Contemporary U.S. Political Rhetoric,3
-CED 102N,"Wicked Problems Like Inequality, Sustainability & Climate Change: What's the Right Thing to Do?",3
+CED 102N,"Wicked Problems Like Inequality, Sustainability & Climate Change: Whats the Right Thing to Do?",3
 CED 109N,Gentrification in Everyday Life,3
 CED 160,Introduction into Ethics and Issues in Agriculture,3
 CED 400N,Exploring Indigenous Ways of Knowing in Great Lakes Region: Lecture,3
@@ -203,7 +204,7 @@ CHNS 120W,Introduction to Chinese Literature and Culture,3
 CHNS 120Z,Introduction to Chinese Literature and Culture - Linked,3
 CHNS 121N,Chinese Film and New Media,3
 CI 280,Introduction to Teaching English Language Learners,3
-CI 304N,"Food, Farms & Justice: What's Education Got To Do With Them?",3
+CI 304N,"Food, Farms & Justice: Whats Education Got To Do With Them?",3
 CIVCM 211N,Foundations: Civic and Community Engagement,3
 CMLIT 1,Introduction to Western Literatures Through the Renaissance,3
 CMLIT 2,Introduction to Western Literatures Since the Renaissance,3
@@ -317,7 +318,7 @@ ENGL 182,Literature and Empire,3
 ENGL 182A,Literature and Empire,3
 ENGL 182C,Literature and Empire,3
 ENGL 183N,"The Cold War in Literature, Politics, and History",3
-ENGL 183Z,Adventure Literature,3-4.5
+ENGL 183Z,Adventure Literature,3
 ENGL 184,The Short Story,3
 ENGL 185,World Novel,3
 ENGL 189,Modern Drama,3
@@ -331,7 +332,7 @@ ENGL 194S,Women Writers,3
 ENGL 197Z,Special Topics - Linked Course,3
 ENGL 201,What is Literature,3
 ENGL 201H,What is Literature,3
-ENGL 205,Children's Literature,3
+ENGL 205,Childrens Literature,3
 ENGL 206,Business and Literature,3
 ENGL 208N,The Music of the Beatles and American Popular Culture,3
 ENGL 221,British Literature to 1798,3
@@ -501,10 +502,10 @@ HIST 194,Jerusalem: Sacred and Profane,3
 HIST 195,Genocide in Global perspectives: Twentieth Century and beyond,3
 HIST 203N,"History of Monsters, Aliens & the Supernatural",3
 HIST 205,American Antisemitism,3
-HIST 210,"Freedom's First Generation: African American Life and Work, from the Civil War to World War II",3
+HIST 210,"Freedoms First Generation: African American Life and Work, from the Civil War to World War II",3
 HIST 211,Slavery and Freedom in the Black Atlantic,3
 HIST 212N,Earthquakes and Human History,3
-HIST 213Y,African American Women's History,3
+HIST 213Y,African American Womens History,3
 HIST 220,Global Diaspora and Exile,3
 HIST 238N,Society and Culture in Palestine/Israel,3
 HIST 240Q,Artistic Patronage in Europe,3
@@ -599,7 +600,7 @@ KOR 121,Korean Popular Culture,3
 LA 135N,"College, Work, and Citizenship in the 21st Century",3
 LA 235N,Introduction to Public Humanities,3
 LHR 165N,Work and Literature,3
-LLED 215N,Children's Picture Books as Multimodal Texts,3
+LLED 215N,Childrens Picture Books as Multimodal Texts,3
 LLED 227,"Understanding Childhood through Children¿s Literature: Books, Media, Toys",3
 LLED 235,Chinese Culture in Child Lit,3
 LTNST 100,Introduction to Latina/o Studies,3
@@ -739,7 +740,7 @@ RLST 146,"The Life and Thought of Martin Luther King, Jr.",3
 RLST 147,The Life and Thought of Malcolm X,3
 RLST 153,Dead Sea Scrolls,3
 RLST 160,Sacrifice in the Ancient World,3
-RLST 164,Introduction to the Qur'an,3
+RLST 164,Introduction to the Quran,3
 RLST 165,"Islamic States, Societies and Cultures c. 600-1500",3
 RLST 181,Introduction to the Religions of China and Japan,3
 RLST 194,Jerusalem: Sacred and Profane,3
@@ -793,7 +794,7 @@ THEA 197Z,Special Topics - Linked Courses,3
 THEA 206,Critical Theory for Performance,3
 UKR 100,Ukrainian Culture and Civilization,3
 WMNST 8,Gender Matters,3
-WMNST 83N,First-Year Seminar in Women's Studies,3
+WMNST 83N,First-Year Seminar in Womens Studies,3
 WMNST 101H,The African American Woman,3
 WMNST 101N,African American Women,3
 WMNST 102,Women of the African Diaspora,3
@@ -810,7 +811,7 @@ WMNST 166,History of Sexuality,3
 WMNST 175N,"Fashion, Gender, and Identity",3
 WMNST 194,Women Writers,3
 WMNST 202N,"Women, Gender, and Feminisms in Africa",3
-WMNST 213Y,African American Women's History,3
+WMNST 213Y,African American Womens History,3
 WMNST 225N,Sexuality and Modern Visual Culture,3
 WMNST 227,Introduction to Queer Theory,3
 WMNST 240Q,Artistic Patronage in Europe,3

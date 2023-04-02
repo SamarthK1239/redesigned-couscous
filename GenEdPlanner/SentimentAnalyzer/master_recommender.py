@@ -14,9 +14,8 @@ conn = psycopg2.connect(
     port=os.getenv('5432')
 )
 cur = conn.cursor()
-user_input = input("Enter your interests: ")
 
-ranked_courses = database_to_dict.coursesPerArea(user_input)
+ranked_courses = database_to_dict.coursesPerArea("Philosophy, Math, Physics, Painting, Photography, French, Spanish, Linguistics, Snowboarding")
 print(ranked_courses)
 final_schedule=[]
 for i in ranked_courses:

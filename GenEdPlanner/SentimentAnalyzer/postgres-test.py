@@ -1,5 +1,6 @@
 from pathlib import Path
 
+import pandas as pd
 import psycopg2 as psycopg2
 from dotenv import load_dotenv
 import os
@@ -15,4 +16,12 @@ mydb = psycopg2.connect(
     port=os.getenv('port')
 )
 
+cursor=mydb.cursor()
+
+stmt="desc subjects;"
+cursor.execute(stmt)
+
+#df_arts=pd.read_csv('arts_gened.csv')
+
+#for i in df_arts.iterrows():
 

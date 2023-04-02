@@ -14,6 +14,7 @@ def recommender(lst_type):
 
     # Preprocess the text
     stop_words = set(stopwords.words('english'))
+
     def preprocess_text(text):
         tokens = word_tokenize(text.lower())
         return [token for token in tokens if token.isalnum() and token not in stop_words]
@@ -30,7 +31,7 @@ def recommender(lst_type):
     index = similarities.MatrixSimilarity(tfidf[corpus])
 
     # Example user interest text
-    user_interest = "sex"
+    user_interest = "art, humanities, economic, psychology, speaking, philosophy, sex"
 
     # Process the user interest text and compute its similarity to the course category descriptions
     user_interest_bow = dictionary.doc2bow(preprocess_text(user_interest))
@@ -39,13 +40,12 @@ def recommender(lst_type):
 
     # Sort course categories by similarity score and print the results
     sorted_sims = sorted(enumerate(sims), key=lambda x: x[1], reverse=True)
-    counter=0
-    output=[]
+    counter = 0
+    output = []
     for category_position, category_score in sorted_sims:
-        if category_score==0.00:
-            print(f"{course_categories[category_position]['title']} (score: {category_score:.2f})")
-            output+=[course_categories[category_position]['title']]
-        counter+=1
-        if counter==5:
+        #print(f"{course_categories[category_position]['title']} (score: {category_score:.2f})")
+        output += [course_categories[category_position]['title']]
+        counter += 1
+        if counter == 3:
             break
     return output

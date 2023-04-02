@@ -12,10 +12,10 @@ load_dotenv(dotenv_path=dotenv_path)
 reddit = praw.Reddit(client_id=os.getenv('client_id'), client_secret=os.getenv('client_secret'),
                      user_agent=os.getenv('user_agent'))
 
-query = "egee 101 psu reddit"
 
+def get_comments_list(query):
+    query = query + "psu reddit"
 
-def get_comments_list():
     def get_comments():
         output = ''
         submission.comments.replace_more(limit=0)
@@ -25,7 +25,7 @@ def get_comments_list():
 
     lst_of_comments = []
     for i in results(query):
-        print(i)
+        #print(i)
         try:
             submission = reddit.submission(url=i)
             lst_of_comments += [get_comments()]
